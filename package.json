@@ -1,0 +1,22 @@
+{
+  "name": "cypresscucumberbdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "trigger-regressionTests":"npx cypress-tags run -e TAGS='@regression' --headed chrome"
+
+  },
+  "author": "Niharika",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cypress": "^6.5.0"
+  }
+}

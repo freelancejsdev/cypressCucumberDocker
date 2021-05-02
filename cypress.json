@@ -1,0 +1,9 @@
+{
+         "baseUrl":"https://demo.nopcommerce.com/",
+         "testFiles": "**/*.feature",
+         "viewportWidth": 1536,
+         "viewportHeight": 960,
+         "experimentalStudio":true
+              
+      
+}
