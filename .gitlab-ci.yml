@@ -1,5 +1,8 @@
 image: cypress/included:6.4.0
 
+stages:
+  - test
+
 test: 
   stage: test
   script:
